@@ -39,7 +39,7 @@ public class MsMsSpectraMergeParameters extends SimpleParameterSet {
     super(new Parameter[]{MERGE_MODE, MZ_MERGE_MODE, INTENSITY_MERGE_MODE, MASS_ACCURACY,
             COSINE_PARAMETER, REL_SIGNAL_COUNT_PARAMETER, ISOLATION_WINDOW_OFFSET,
             ISOLATION_WINDOW_WIDTH},
-        "https://mzmine.github.io/mzmine_documentation/module_docs/GNPS_export/merge_ms2_kai.html");
+        "https://mzmine.github.io/mzmine_documentation/module_docs/io/merge_ms2_kai.html");
   }
 
   public static final PercentParameter COSINE_PARAMETER = new PercentParameter(

@@ -114,7 +114,7 @@ public class GnpsFbmnExportAndSubmitParameters extends SimpleParameterSet {
   public GnpsFbmnExportAndSubmitParameters() {
     super(new Parameter[]{FEATURE_LISTS, FILENAME, FILTER, spectraMergeSelect, NORMALIZER,
             FEATURE_INTENSITY, CSV_TYPE, SUBMIT, OPEN_FOLDER},
-        "https://mzmine.github.io/mzmine_documentation/module_docs/GNPS_export/gnps_export.html");
+        "https://mzmine.github.io/mzmine_documentation/module_docs/io/data-exchange-with-other-software.html#gnps-fbmniimn-export");
   }
 
   /**
